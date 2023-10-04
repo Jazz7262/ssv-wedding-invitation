@@ -68,7 +68,7 @@ function Couple() {
                                     <div className="img-wrapper">
                                         <img
                                             className="couple-img"
-                                            src="../assets/images/groom1.jpeg"
+                                            src="../assets/images/groom.pngs"
                                             alt="couple_img"
                                         />
                                     </div>
@@ -77,7 +77,7 @@ function Couple() {
                                     <div className="img-wrapper">
                                         <img
                                             className="couple-img"
-                                            src="../assets/images/groom2.jpeg"
+                                            src="../assets/images/groom.pngs"
                                             alt="couple_img"
                                         />
                                     </div>
@@ -86,7 +86,7 @@ function Couple() {
                                     <div className="img-wrapper">
                                         <img
                                             className="couple-img"
-                                            src="../assets/images/groom3.jpeg"
+                                            src="../assets/images/groom.pngs"
                                             alt="couple_img"
                                         />
                                     </div>
@@ -140,7 +140,7 @@ function Couple() {
                                 <strong>B. Nabi Sahab(Late),</strong>{" "}
                             </p>
                             <p className="mt-1 mt-lg-2">
-                                APSRTC Employee, Adoni.
+                                APSRTC, Adoni.
                             </p>
 
                             <p className="mt-1 mt-lg-2">
@@ -155,7 +155,7 @@ function Couple() {
                                 S/O Janab <strong>B. Khadar Sahab,</strong>{" "}
                             </p>
                             <p className="mt-1 mt-lg-2">
-                                APSRTC Employee, Adoni.
+                                APSRTC, Adoni.
                             </p>
                             <p className="mt-1 mt-lg-2">
                                 Residence at RTC Colony, Adoni.
