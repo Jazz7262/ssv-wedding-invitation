@@ -124,7 +124,7 @@ function Couple() {
                         </div>
                         <div className="info groom-info">
                             <h3>
-                                B. Shaikhsha Vali <sub>MCA,</sub>
+                                B. Shaiksha Vali <sub>MCA,</sub>
                             </h3>
                             <p className="mt-2 mt-lg-3">
                                 Proprietor: <strong>SSV PAints,</strong>{" "}
@@ -139,7 +139,9 @@ function Couple() {
                                 Paternal Grand S/O Janab{" "}
                                 <strong>B. Nabi Sahab(Late),</strong>{" "}
                             </p>
-                            <p className="mt-1 mt-lg-2">RTC Employee, Adoni.</p>
+                            <p className="mt-1 mt-lg-2">
+                                APSRTC Employee, Adoni.
+                            </p>
 
                             <p className="mt-1 mt-lg-2">
                                 Maternal Grand S/O Janab{" "}
@@ -152,7 +154,12 @@ function Couple() {
                             <p className="mt-1 mt-lg-2">
                                 S/O Janab <strong>B. Khadar Sahab,</strong>{" "}
                             </p>
-                            <p className="mt-1 mt-lg-2">RTC Employee, Adoni.</p>
+                            <p className="mt-1 mt-lg-2">
+                                APSRTC Employee, Adoni.
+                            </p>
+                            <p className="mt-1 mt-lg-2">
+                                Residence at RTC Colony, Adoni.
+                            </p>
                         </div>
                     </div>
                     <div
