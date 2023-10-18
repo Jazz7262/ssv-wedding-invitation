@@ -5,13 +5,13 @@ function Header() {
     return (
         <section id="header">
             <img
-                src="../assets/images/bismillah.png"
+                src="../assets/images/bismillah.jpg"
                 alt="bismillah"
                 className="poster"
             />
             <h4>
-                Begin With The Name Of Allaah, The Most Benificient And The Most
-                Merciful
+                BEGIN WITH THE NAME OF ALLAAH, THE MOST BENIFICIENT AND THE
+                MOST MERCIFUL
             </h4>
 
             {/* <h4 className="mt-4">
@@ -26,8 +26,13 @@ function Header() {
                 Under the spirutual patronage of:
                 <br />
                 Qutub-e-Adoni Qutub-ud-Dawaayir Ashraf-ul-Ma'aasir
-                Sayyid-e-Barhaq Hazrath Sayyid Shah Taher Quadri, Al-Hamavi
-                Rahamatullaahi Alaih, Adoni,
+                Afzalul-Muzaahir Sayyid-e-Barhaq Hazrath Sayyid Shah Taher
+                Quadri, Al-Hamavi Rahamatullaahi Alaih, Adoni,
+            </h4>
+
+            <h4 className="mt-4">
+                A'alaa Hazrath Mujaddid-e-Deen wa Millat Ash-Shah Imaam Ahmad
+                Raza Khan Alaihi Rahmatu wa Rizwaan, Bareilly Shareef.
             </h4>
 
             {/* <h4 className="mt-4">

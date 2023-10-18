@@ -18,7 +18,7 @@ function CustomModel1() {
                 $(".swing-icon").css("z-index", "2");
                 $(".animated-logo").css("z-index", "2");
                 $("body").removeAttr("style");
-                document.getElementById("audio").play();
+                // document.getElementById("audio").play();
                 document.getElementById("timer-video").play();
 
                 startScroll();
@@ -29,32 +29,32 @@ function CustomModel1() {
     // auto scroll starts when user clicks on "open" button
     function startScroll() {
         var length = document.querySelector("html").offsetHeight;
-        setTimeout(() => {
-            $("html, body").animate(
-                {
-                    scrollTop: length - 500,
-                },
-                30000,
-                "linear",
-                function () {
-                    $("html, body").animate(
-                        {
-                            scrollTop: 0,
-                        },
-                        5000,
-                        function () {
-                            $(".toast-message").fadeOut();
-                            document.querySelector(
-                                "html"
-                            ).style.scrollBehavior = "smooth";
+        // setTimeout(() => {
+        //     $("html, body").animate(
+        //         {
+        //             scrollTop: length - 500,
+        //         },
+        //         30000,
+        //         "linear",
+        //         function () {
+        //             $("html, body").animate(
+        //                 {
+        //                     scrollTop: 0,
+        //                 },
+        //                 5000,
+        //                 function () {
+        //                     $(".toast-message").fadeOut();
+        //                     document.querySelector(
+        //                         "html"
+        //                     ).style.scrollBehavior = "smooth";
 
-                            $("html, body").stop();
-                            $("html, body").off("click");
-                        }
-                    );
-                }
-            );
-        }, 500);
+        //                     $("html, body").stop();
+        //                     $("html, body").off("click");
+        //                 }
+        //             );
+        //         }
+        //     );
+        // }, 500);
 
         // stop the auto scroll when user clicks on screen
         setTimeout(function () {

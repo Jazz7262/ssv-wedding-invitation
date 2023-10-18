@@ -6,20 +6,20 @@ function Slide() {
         <section id="slide">
             <div className="slide-wrapper">
                 <div className="slide-content">
-                    <div
+                    {/* <div
                         className="img-container"
                         data-aos="zoom-out"
                         data-aos-offset="300"
                     >
                         <img alt="big_wheel" src="./assets/images/wheel.png" />
-                    </div>
+                    </div> */}
                     <div
                         className="text-content"
                         data-aos="fade-in"
                         data-aos-offset="300"
                         data-aos-delay="50"
                     >
-                        <h4>We Are Arranging Our Daughter's Wedding</h4>
+                        <h4>WE ARE ARRANGING OUR DAUGHTER'S WEDDING</h4>
                         <h1>Save Our Date</h1>
                         <p>
                             05<sup>th</sup> November, 2023
@@ -27,17 +27,33 @@ function Slide() {
                     </div>
                 </div>
                 <img
-                    className="wheel wheel-top"
-                    data-aos="fade-down"
-                    data-aos-delay="300"
-                    src="../assets/images/wheel.png"
+                    className="mandal top-1"
+                    src="../assets/images/golden-mandal.png"
                     alt="Wheel"
                 />
                 <img
-                    className="wheel wheel-bottom"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                    src="../assets/images/wheel.png"
+                    className="mandal top-2"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
+                    className="mandal top-3"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
+                    className="mandal bottom-1"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
+                    className="mandal bottom-2"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
+                    className="mandal bottom-3"
+                    src="../assets/images/golden-mandal.png"
                     alt="Wheel"
                 />
             </div>

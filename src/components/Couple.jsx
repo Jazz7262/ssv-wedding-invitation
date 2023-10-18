@@ -68,7 +68,7 @@ function Couple() {
                                     <div className="img-wrapper">
                                         <img
                                             className="couple-img"
-                                            src="../assets/images/groom.pngs"
+                                            src="../assets/images/groom.png"
                                             alt="couple_img"
                                         />
                                     </div>
@@ -77,7 +77,7 @@ function Couple() {
                                     <div className="img-wrapper">
                                         <img
                                             className="couple-img"
-                                            src="../assets/images/groom.pngs"
+                                            src="../assets/images/groom.png"
                                             alt="couple_img"
                                         />
                                     </div>
@@ -86,7 +86,7 @@ function Couple() {
                                     <div className="img-wrapper">
                                         <img
                                             className="couple-img"
-                                            src="../assets/images/groom.pngs"
+                                            src="../assets/images/groom.png"
                                             alt="couple_img"
                                         />
                                     </div>

@@ -2,11 +2,14 @@
 #slide {
     box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.492);
     position: relative;
-    color: #fff;    
+    color: #fff;
     background: #000428;
     background: radial-gradient(circle, #004e92 20%, #000428 60%);
+    background: #014b43;
+    background: radial-gradient(circle, #014b43 0%, #002e20 100%);
     overflow: hidden;
     /* background: url("../../public/assets/images/bg-img-2.jpg") repeat fixed 50%; */
+    height: 90vh;
 }
 
 #slide .slide-wrapper {
@@ -32,8 +35,8 @@
     position: absolute;
     top: 37.5%;
     left: 0%;
-    background: #000428;
-    background: radial-gradient(circle, #004e92 20%, #000428 80%);  
+    /* background: #000428; */
+    /* background: radial-gradient(circle, #004e92 20%, #000428 80%); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,8 +82,8 @@
     }
 }
 
-.wheel {
-    width: 20%;
+.mandal {
+    width: 15%;
     position: absolute;
     animation: rotate-wheel 10s linear infinite;
 }
@@ -93,15 +96,36 @@
     }
 }
 
-.wheel-top {
+.mandal.top-1 {
+    top: 30px;
+    right: 30px;
+    transform: rotate(180deg);
+}
+.mandal.top-2 {
+    top: -60px;
+    right: 182px ;
+    transform: rotate(180deg);
+}
+.mandal.top-3 {
+    top: 192px;
+    right: -64px;
+    transform: rotate(180deg);
+}
+
+.mandal.bottom-1 {
+    bottom: -15%;
+    right: 40%;
+    transform: rotate(180deg);
+}
+.mandal.bottom-2 {
     top: -15%;
     left: 40%;
     transform: rotate(180deg);
 }
-
-.wheel-bottom {
-    bottom: -15%;
-    right: 40%;
+.mandal.bottom-3 {
+    top: -15%;
+    left: 40%;
+    transform: rotate(180deg);
 }
 
 /* Tablet Wide Screens */

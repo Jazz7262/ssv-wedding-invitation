@@ -1,13 +1,13 @@
 #header {
-    color: #000428;
+    color: #002e20;
     text-align: justify;
     position: relative;
     z-index: 1;
     padding: 7%;
     background: #9cecfb;
-    background: radial-gradient(circle, #9cecfb, #65c7f7, #0052d4);
-    background-size: 250% 250%;
-    animation: hearder-animation 10s infinite linear;
+    /* background: radial-gradient(circle, #9cecfb, #65c7f7, #0052d4);
+    background-size: 250% 250%; */
+    /* animation: hearder-animation 10s infinite linear; */
 }
 @keyframes hearder-animation {
     0% {
@@ -67,7 +67,7 @@
     left: 0;
     z-index: -1;
     background-image: url("../../public/assets/images/bg-1.jpg");
-    background-size: 10%;
+    background-size: 8%;
     opacity: 0.2;
 }
 /* Tablet Wide Screens */
