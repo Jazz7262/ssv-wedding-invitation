@@ -3,8 +3,6 @@
     box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.492);
     position: relative;
     color: #fff;
-    background: #000428;
-    background: radial-gradient(circle, #004e92 20%, #000428 60%);
     background: #014b43;
     background: radial-gradient(circle, #014b43 0%, #002e20 100%);
     overflow: hidden;
@@ -42,6 +40,32 @@
     justify-content: center;
     align-items: center;
 }
+/* 
+#slide .text-content h4,
+#slide .text-content h1,
+#slide .text-content p,
+#slide .text-content p sup {
+    background: #ada996; 
+    background: -webkit-linear-gradient(
+        to right,
+        #ada996,
+        #eaeaea,
+        #dbdbdb,
+        #f2f2f2,
+        #ada996
+    );
+    background: linear-gradient(
+        90deg,
+        #ada996,
+        #eaeaea,
+        #dbdbdb,
+        #f2f2f2,
+        #ada996
+    ); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
 
 #slide .text-content h4 {
     font-weight: 500;
@@ -58,7 +82,7 @@
     display: inline-block;
     padding: 8px 16px;
     margin-bottom: 0px;
-    border: 2px solid #000428;
+    border: 2px solid #fff;
     border-radius: 5px;
     font-weight: 500;
     -webkit-animation: glow 1.5s linear infinite;
@@ -68,8 +92,8 @@
 /* Glowing Date Animation  */
 @keyframes glow {
     0% {
-        box-shadow: -5px -5px 5px #000428aa, 5px 5px 5px #000428aa,
-            -5px 5px 5px #000428aa, 5px -5px 5px #000428aa;
+        box-shadow: -5px -5px 5px #FFffff50, 5px 5px 5px #FFffff50,
+            -5px 5px 5px #FFffff50, 5px -5px 5px #FFffff50;
     }
 
     50% {
@@ -77,13 +101,13 @@
     }
 
     100% {
-        box-shadow: -5px -5px 5px #000428aa, 5px 5px 5px #000428aa,
-            -5px 5px 5px #000428aa, 5px -5px 5px #000428aa;
+        box-shadow: -5px -5px 5px #FFffff50, 5px 5px 5px #FFffff50,
+            -5px 5px 5px #ffffff50, 5px -5px 5px #FFffff50;
     }
 }
 
 .mandal {
-    width: 15%;
+    width: 180px;
     position: absolute;
     animation: rotate-wheel 10s linear infinite;
 }
@@ -97,35 +121,55 @@
 }
 
 .mandal.top-1 {
-    top: 30px;
-    right: 30px;
-    transform: rotate(180deg);
+    width: 150px;
+    top: -80px;
+    right: 356px;
 }
 .mandal.top-2 {
-    top: -60px;
-    right: 182px ;
+    top: -50px;
+    right: 192px;
     transform: rotate(180deg);
 }
 .mandal.top-3 {
-    top: 192px;
-    right: -64px;
+    width: 200px;
+    top: 25px;
+    right: 25px;
+}
+.mandal.top-4 {
+    top: 195px;
+    right: -45px;
     transform: rotate(180deg);
+}
+.mandal.top-5 {
+    width: 150px;
+    top: 358px;
+    right: -80px;
 }
 
 .mandal.bottom-1 {
-    bottom: -15%;
-    right: 40%;
-    transform: rotate(180deg);
+    width: 150px;
+    bottom: -80px;
+    left: 356px;
 }
 .mandal.bottom-2 {
-    top: -15%;
-    left: 40%;
+    bottom: -50px;
+    left: 192px;
     transform: rotate(180deg);
 }
 .mandal.bottom-3 {
-    top: -15%;
-    left: 40%;
+    width: 200px;
+    bottom: 25px;
+    left: 25px;
+}
+.mandal.bottom-4 {
+    bottom: 195px;
+    left: -45px;
     transform: rotate(180deg);
+}
+.mandal.bottom-5 {
+    width: 150px;
+    bottom: 358px;
+    left: -80px;
 }
 
 /* Tablet Wide Screens */

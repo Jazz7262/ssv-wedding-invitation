@@ -42,6 +42,16 @@ function Slide() {
                     alt="Wheel"
                 />
                 <img
+                    className="mandal top-4"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
+                    className="mandal top-5"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
                     className="mandal bottom-1"
                     src="../assets/images/golden-mandal.png"
                     alt="Wheel"
@@ -53,6 +63,17 @@ function Slide() {
                 />
                 <img
                     className="mandal bottom-3"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+
+                <img
+                    className="mandal bottom-4"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
+                    className="mandal bottom-5"
                     src="../assets/images/golden-mandal.png"
                     alt="Wheel"
                 />
