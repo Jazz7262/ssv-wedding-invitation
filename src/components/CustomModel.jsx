@@ -12,7 +12,7 @@ function CustomModel1() {
       window.scrollTo(0, 0);
       $(".card-outer-wrapper").addClass("zoom-out-animation");
       setTimeout(() => {
-        $("#card").css("display", "none");
+        // $("#card").css("display", "none");
         $("#card").fadeOut();
         $(".navbar").css("z-index", "2");
         $(".swing-icon").css("z-index", "2");
@@ -34,7 +34,7 @@ function CustomModel1() {
         {
           scrollTop: length - 500,
         },
-        30000,
+        40000,
         "linear",
         function () {
           $("html, body").animate(
@@ -98,7 +98,7 @@ function CustomModel1() {
             />
           </div>
 
-          <img
+          {/* <img
             src="../assets/images/card-corner.png"
             alt="card_corner"
             className="card-corner top-right"
@@ -117,7 +117,59 @@ function CustomModel1() {
             src="../assets/images/card-corner.png"
             alt="card_corner"
             className="card-corner bottom-left"
-          />
+          /> */}
+
+<img
+                    className="mandal top-1"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
+                    className="mandal top-2"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
+                    className="mandal top-3"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
+                    className="mandal top-4"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
+                    className="mandal top-5"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
+                    className="mandal bottom-1"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
+                    className="mandal bottom-2"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
+                    className="mandal bottom-3"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+
+                <img
+                    className="mandal bottom-4"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
+                <img
+                    className="mandal bottom-5"
+                    src="../assets/images/golden-mandal.png"
+                    alt="Wheel"
+                />
         </div>
       </div>
     </section>

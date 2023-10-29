@@ -2,8 +2,8 @@
 #count-down {
     color: #fff;
     font-family: "Mulish", sans-serif;
-    background: #004e92;
-    background: radial-gradient(circle, #004e92 40%, #000428 70%);
+    background: #006647;
+    background: radial-gradient(circle, #006647 40%, #002e20 70%);
 }
 
 #count-down .count-down-wrapper {
@@ -40,7 +40,7 @@
 
 #count-down .title {
     color: #fff;
-    background-color: #00042880;
+    background-color: #002e2088;
     padding: 20px;
     padding-top: 17%;
     height: 480px;
